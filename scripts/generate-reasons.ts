@@ -1,6 +1,8 @@
 // Script for generate report reasons scss for lzt-report-icons userscript
 
 import path from "node:path";
+
+import * as prettier from "prettier";
 import reasons, {
   color,
   hoverColor,
@@ -53,10 +55,18 @@ async function generateReasonsCSS() {
     })
     .join("\n");
 
-  await Bun.write(
-    path.join(__dirname, "..", "lzt-report-icons", "report-icons.scss"),
-    code,
+  const filepath = path.join(
+    __dirname,
+    "..",
+    "lzt-report-icons",
+    "report-icons.scss",
   );
+
+  const formattedCode = await prettier.format(code, {
+    filepath,
+  });
+
+  await Bun.write(filepath, formattedCode);
 }
 
 await generateReasonsCSS();
