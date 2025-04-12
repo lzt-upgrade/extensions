@@ -1,0 +1,20 @@
+{
+  "name": "LZT Froala AIT",
+  "description": "Add Template Button to all froala instances",
+  "version": "1.0.0",
+  "author": "Toil",
+  "namespace": "lzt-froala-init-template",
+  "license": "MIT",
+  "icon": "https://cdn.lztup.net/brand/logo-mini.png",
+  "supportURL": "https://t.me/lzt_upgrade",
+  "homepageURL": "https://t.me/lzt_upgrade",
+  "match": [
+    "*://lolz.guru/*",
+    "*://lolz.live/*",
+    "*://zelenka.guru/*",
+    "*://zelenka.market/*",
+    "*://lzt.market/*",
+    "*://lolz.market/*"
+  ],
+  "grant": ["GM_setValue", "GM_getValue"]
+}
