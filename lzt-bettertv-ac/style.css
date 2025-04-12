@@ -1,0 +1,9 @@
+.fe-ac-BetterTV {
+  display: flex;
+  flex-direction: row;
+}
+
+/* alternative of mceSmilie */
+.fe-ac-smilie-image.lztup-smilie {
+  margin: 0 !important;
+}

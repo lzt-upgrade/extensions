@@ -1,0 +1,21 @@
+{
+  "name": "LZT BetterTV AC",
+  "description": "Add BetterTV smilies to editor autocomplete",
+  "version": "1.0.0",
+  "author": "Toil",
+  "namespace": "lzt-bettertv-ac",
+  "license": "MIT",
+  "icon": "https://cdn.lztup.net/brand/logo-mini.png",
+  "updateURL": "https://update.greasyfork.org/scripts/498116/LZT%20BetterTV%20AC.user.js",
+  "downloadURL": "https://update.greasyfork.org/scripts/498116/LZT%20BetterTV%20AC.user.js",
+  "supportURL": "https://t.me/lzt_upgrade",
+  "homepageURL": "https://t.me/lzt_upgrade",
+  "match": [
+    "*://lolz.guru/*",
+    "*://lolz.live/*",
+    "*://zelenka.guru/*",
+    "*://zelenka.market/*",
+    "*://lzt.market/*",
+    "*://lolz.market/*"
+  ]
+}
