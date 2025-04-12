@@ -1,0 +1,37 @@
+{
+  "name": "lztup-extensions",
+  "module": "build.ts",
+  "type": "module",
+  "devDependencies": {
+    "@lit/localize-tools": "^0.8.0",
+    "@toil/gm-types": "^1.0.1",
+    "@types/bun": "latest",
+    "@types/jquery": "^3.5.32",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "caniuse-lite": "^1.0.30001713",
+    "eslint": "^9.24.0",
+    "eslint-plugin-oxlint": "^0.16.5",
+    "husky": "^9.1.6",
+    "lightningcss": "^1.29.3",
+    "oxlint": "^0.16.5",
+    "prettier": "^3.5.3",
+    "sass": "^1.86.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "build:default": "bun run build.ts",
+    "build:min": "MINIFY=true bun run build.ts",
+    "build:bun": "bun gen:reasons && bun build:default && bun build:min",
+    "gen:reasons": "bun run scripts/generate-reasons.ts"
+  },
+  "dependencies": {
+    "@lit/localize": "^0.12.2",
+    "lit": "^3.2.0",
+    "uuid": "^11.1.0"
+  }
+}
