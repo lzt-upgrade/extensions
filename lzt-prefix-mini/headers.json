@@ -1,0 +1,14 @@
+{
+  "name": {
+    "default": "LZT Prefix Redesign Mini"
+  },
+  "description": "",
+  "version": "1.0.1",
+  "author": "Toil",
+  "namespace": "lzt-prefix-redesign-mini",
+  "license": "MIT",
+  "icon": "https://cdn.lztup.net/brand/logo-mini.png",
+  "supportURL": "https://lolz.live/threads/6149539",
+  "homepageURL": "https://lolz.live/threads/6149539",
+  "match": ["*://lolz.guru/*", "*://lolz.live/*", "*://zelenka.guru/*"]
+}
