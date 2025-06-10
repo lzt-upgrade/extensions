@@ -3,7 +3,7 @@
     "default": "LZT Report Icons"
   },
   "description": "Add icons for report reasons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Toil",
   "namespace": "lzt-report-icons",
   "license": "MIT",

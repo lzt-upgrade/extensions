@@ -28,6 +28,8 @@ let code = `${copyright}
   align-self: center !important;
   background-size: 100% !important;
   background-repeat: no-repeat !important;
+  background-color: transparent !important;
+  border-radius: unset !important;
   padding: 5px !important;
   margin: -5px 0 !important;
 }
